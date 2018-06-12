@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: zuul
+    
+server:
+    port: 8080
+ 
+zuul:
+    prefix: /api
+    routes:
+        say-hello:
+            path: /hi/**
+            serviceId: say-hello
+        user:
+            path: /user/**
+            serviceId: user
+        sigpos-ws:
+            path: /sigpos-ws/**
+            serviceId: sigpos-ws
+            
