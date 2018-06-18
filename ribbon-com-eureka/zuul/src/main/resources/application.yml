@@ -17,4 +17,10 @@ zuul:
         sigpos-ws:
             path: /sigpos-ws/**
             serviceId: sigpos-ws
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, metrics
             
