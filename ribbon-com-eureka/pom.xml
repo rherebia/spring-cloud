@@ -12,6 +12,7 @@
         <module>say-hello</module>
         <module>user</module>
         <module>eureka-server</module>
+        <module>zuul</module>
     </modules>
 
 </project>

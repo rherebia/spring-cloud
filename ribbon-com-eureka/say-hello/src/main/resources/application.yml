@@ -1,6 +1,9 @@
 spring:
   application:
     name: say-hello
+  sleuth:
+    sampler:
+      probability: 100
 
 eureka:
   client:

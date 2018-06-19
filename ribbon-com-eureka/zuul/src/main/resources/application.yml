@@ -1,6 +1,9 @@
 spring:
   application:
     name: zuul
+  sleuth:
+    sampler:
+      probability: 100
     
 server:
     port: 8080
